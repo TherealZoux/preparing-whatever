@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 const mongoUrl =
-  "mongodb+srv://therealzoux:121219@cluster0.2c6nn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://<username>:<password>@cluster0.2c6nn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(mongoUrl)
